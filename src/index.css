@@ -1,0 +1,42 @@
+/* Global Styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Reset default padding, margin, and box-sizing */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Button */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Utility */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* App styling */
+.main-container {
+  width: 1000px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 4rem 0;
+}
+.add-text {
+  margin: 1rem auto;
+  font-size: 0.75rem;
+  border-radius: 30px;
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(235, 235, 235);
+}

@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 
-import './Toolbar.css';
 import { useState, useCallback } from 'react';
 import { BsTypeBold, BsTypeUnderline } from "react-icons/bs";
 import { PiTextItalicLight } from "react-icons/pi";

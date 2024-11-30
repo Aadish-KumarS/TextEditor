@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Canvas from './components/Canvas/Canvas';
-import UndoRedo from './components/UndoRedoElement/Undoredoelement';
-import Toolbar from './components/Toolbar/Toolbar';
 import { RxText } from 'react-icons/rx';
+import UndoRedo from './components/UndoRedoElement';
+import Canvas from './components/Canvas';
+import Toolbar from './components/Toolbar';
 
 const App = () => {
   // Canvas dimensions

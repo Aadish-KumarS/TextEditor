@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 // Canvas.js
-import TextBlock from "../TextBlock/TextBlock";
-import './Canvas.css'
+import TextBlock from "./TextBlock";
 
 const Canvas = ({ textBlocks, moveText, setSelectedText,handleBlur, canvasWidth, canvasHeight }) => {
   
@@ -12,8 +11,8 @@ const Canvas = ({ textBlocks, moveText, setSelectedText,handleBlur, canvasWidth,
         width: canvasWidth + 'px',
         height: canvasHeight + 'px',
         backgroundColor: 'rgb(232,232,232)',
+        margin: '1rem auto'
       }}
-      className="canvas"
     >
       {textBlocks.map((block) => (
         <TextBlock

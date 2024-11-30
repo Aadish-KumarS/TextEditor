@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
-import './UndoRedoElement.css'
 import { BiUndo, BiRedo } from "react-icons/bi";
 
 const UndoRedo = ({ undo, redo }) => {
   return (
-    <section className="undoRedoElement">
+    <section className="undoRedoElement center">
       <button onClick={undo} className="button-container center">
         <BiUndo size={30} color={"rgb(156,156,156)"}/>
         Undo

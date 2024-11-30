@@ -18,11 +18,3 @@ This project is a text editor that allows users to add, move, and edit text bloc
 - CSS
 - JavaScript (ES6+)
 
-## Installation
-
-To get started with the project, follow these steps:
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/text-editor.git
